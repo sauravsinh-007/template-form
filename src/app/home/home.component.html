@@ -1,0 +1,4 @@
+<div class="container">
+  <app-my-form [editData]="editFormData" (userData)="receiveData($event)"></app-my-form>
+  <app-table [tableData]="formDataArray"  (editData)="onEdit($event)"></app-table>
+</div>
